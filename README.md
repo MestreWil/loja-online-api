@@ -2,5 +2,15 @@
 ==========================================================
 
 A API deve permitir que os clientes façam o seu cadastro, consultem produtos disponíveis, 
+realizem e listem seus pedidos. Além disso, os administrados devem ter acesso a recursos adicionais, 
+como gerenciamento de produtos e pedidos.
+A API deve ser desenvolvida utilizando JavaScrpt com Node.js
+A API deve ser baseada nos princípios RESTful e utilizar os métodos HTTP corretos para cada operação (GET, POST, PUT, DELETE).
+A API deve fornecer endpoints para as seguintes funcionalidades: Consulta de produtos disponíveis. Realização de um pedido. Consulta de 
+pedidos realizados.
+Os adminitsrradores devem ter acesso a endpoints adicionais para gerenciamento de produtos e pedidos, incluindo criação, atualização e exclusão de produtos.
+A API deve retornar respostas apropriadas em caso de erros ou requisições inválidas.
+Considere a utilização de bibliotecas ou frameworks adequados para o desenvolvimento da API (por exemplo, Express, Restify, Flask, Django...) Teste a API usando ferramentas como o Postman
+ou Insomnia.
 
 
