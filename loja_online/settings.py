@@ -45,7 +45,9 @@ INSTALLED_APPS = [
     "cidades",
     "clientes",
     "pedidos",
-    "categorias", 
+    "categorias",
+    "produtos",
+    "pedidos_produtos",
 ]
 
 MIDDLEWARE = [
