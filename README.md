@@ -13,4 +13,29 @@ A API deve retornar respostas apropriadas em caso de erros ou requisições inv�
 Considere a utilização de bibliotecas ou frameworks adequados para o desenvolvimento da API (por exemplo, Express, Restify, Flask, Django...) Teste a API usando ferramentas como o Postman
 ou Insomnia.
 
+# Rodando a API do projeto
 
+
+    # Clonar repositório
+    $ git clone https://github.com/MestreWil/loja-online-api/
+    # Iniciando setup do backend
+    $ cd loja-online-api
+
+    # Criar ambiente virtual específico para esse projeto
+    $ python -m venv venv 
+    
+    # Ativar a venv
+    $ source ./venv/Scripts/activate
+
+    # Instalar todas as dependências
+    $ pip install -r requirements.txt
+
+    # Criar um super user
+    $ python manage.py createsuperuser
+
+    # Rodar as migrations 
+    $ python manage.py migrate
+
+    # Rodar projeto
+    $ python manage.py runserver
+    
