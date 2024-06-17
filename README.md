@@ -15,7 +15,8 @@ ou Insomnia.
 
 # Rodando a API do projeto
 
-
+    # OBS: Ter versão do python acima da versão 3.10
+    
     # Clonar repositório
     $ git clone https://github.com/MestreWil/loja-online-api/
     # Iniciando setup do backend
