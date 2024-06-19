@@ -16,6 +16,8 @@ ou Insomnia.
 # Rodando a API do projeto
 
     # OBS: Ter versão do python acima da versão 3.10
+    # OBS: Ter o modulo virtualenv instalado na maquina, caso não tenha:
+    $pip install virtualenv
     
     # Clonar repositório
     $ git clone https://github.com/MestreWil/loja-online-api/
@@ -26,16 +28,16 @@ ou Insomnia.
     $ python -m venv venv 
     
     # Ativar a venv
-    $ source ./venv/Scripts/activate
+    $ ./venv/Scripts/activate
 
     # Instalar todas as dependências
     $ pip install -r requirements.txt
 
-    # Criar um super user
-    $ python manage.py createsuperuser
-
     # Rodar as migrations 
     $ python manage.py migrate
+
+    # Criar um super user
+    $ python manage.py createsuperuser
 
     # Rodar projeto
     $ python manage.py runserver
