@@ -16,6 +16,8 @@ ou Insomnia.
 # Rodando a API do projeto
 
     # OBS: Ter versão do python acima da versão 3.10
+    # OBS: QUANDO RODAR A API, PARA VELA FUNCIONANDO BASTA ENTRA NO PAINEL ADMIN COLOCANDO /admin apos entrar na porta do api
+    # USE O LOGIN QUE VOCÊ CRIOU NO createsuperuser para acessar o painel administrador
     # OBS: Ter o modulo virtualenv instalado na maquina, caso não tenha:
     $pip install virtualenv
     
@@ -41,4 +43,8 @@ ou Insomnia.
 
     # Rodar projeto
     $ python manage.py runserver
+
+    # CASO ALGO NÃO TENHA FUNCIONADO OU SURGIU ALGUMA DÚVIDA, POR FAVOR ENTRAR EM CONTATO 
+    # Email: williamtavaresdemoura@gmail.com
+    # Instagram: @mestre_will
     
