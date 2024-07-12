@@ -20,6 +20,7 @@ ou Insomnia.
     <img src="Captura%20de%20tela%202024-07-12%20130642.png" alt="Diagrama">
   </a>
   <br>
+  
 # Rodando a API do projeto
 
     # OBS: Ter versão do python acima da versão 3.10
