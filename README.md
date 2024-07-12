@@ -20,9 +20,9 @@ ou Insomnia.
     <img src="Captura%20de%20tela%202024-07-12%20130642.png" alt="Diagrama">
   </a>
   <br>
-  
-# Rodando a API do projeto
-
+<p align="center">  
+  # Rodando a API do projeto
+</p>
     # OBS: Ter versão do python acima da versão 3.10
     # OBS: QUANDO RODAR A API, PARA VELA FUNCIONANDO BASTA ENTRA NO PAINEL ADMIN COLOCANDO /admin apos entrar na porta do api
     # USE O LOGIN QUE VOCÊ CRIOU NO createsuperuser para acessar o painel administrador
