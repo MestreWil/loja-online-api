@@ -17,8 +17,9 @@ ou Insomnia.
 <br>
 <p align="center">
   <a href="https://github.com/MestreWil/loja-online-api/blob/main/Captura%20de%20tela%202024-07-12%20130642.png">
-    <img src="Captura%20de%20tela%202024-07-12%20130642.png" alt="Diagrama" width="180" height="180">
+    <img src="Captura%20de%20tela%202024-07-12%20130642.png" alt="Diagrama">
   </a>
+  <br>
 # Rodando a API do projeto
 
     # OBS: Ter versão do python acima da versão 3.10
