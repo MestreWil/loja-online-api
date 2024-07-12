@@ -13,6 +13,12 @@ A API deve retornar respostas apropriadas em caso de erros ou requisições inv�
 Considere a utilização de bibliotecas ou frameworks adequados para o desenvolvimento da API (por exemplo, Express, Restify, Flask, Django...) Teste a API usando ferramentas como o Postman
 ou Insomnia.
 
+# Diagrama ER BASE
+<br>
+<p align="center">
+  <a href="">
+    <img src="" alt="Diagrama" width="180" height="180">
+  </a>
 # Rodando a API do projeto
 
     # OBS: Ter versão do python acima da versão 3.10
