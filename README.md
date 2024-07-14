@@ -31,34 +31,36 @@ Diagrama ER BASE
     $pip install virtualenv
 
    ```bash 
-    # Clonar repositório
+    // Clonar repositório
     $ git clone https://github.com/MestreWil/loja-online-api/
     
-    # Entrando na pasta do backend
+    // Entrando na pasta do backend
     $ cd loja-online-api
 
-    # Criar ambiente virtual específico para esse projeto
+    // Criar ambiente virtual específico para esse projeto
     $ python -m venv venv 
     
-    # Ativar a venv
+    // Ativar a venv
     $ ./venv/Scripts/activate
 
-    # Instalar todas as dependências obs:tenha certeza de que você está na venv e com o interpretador na venv selecionado para instalar as dependencias
+    // Instalar todas as dependências obs:tenha certeza de que você está na venv e com o interpretador na venv selecionado para instalar as dependencias
     $ pip install -r requirements.txt
 
-    # Rodar as migrations 
+    // Rodar as migrations 
     $ python manage.py migrate
 
-    # Criar um super user
+    // Criar um super user
     $ python manage.py createsuperuser
 
-    # Rodar projeto
+    // Rodar projeto
     $ python manage.py runserver
+
+   // ao entrar e der pagina not found, basta colocar /admin no endpoint para ser encaminhado para o painel administrador da API, loge com seu login e senha criados na etapa de criacao do super usuario e pronto
     ```
     
-    #ao entrar e der pagina not found, basta colocar /admin no endpoint para ser encaminhado para o painel administrador da API, loge com seu login e senha criados na etapa de criacao do super usuario e pronto
     
-    # CASO ALGO NÃO TENHA FUNCIONADO OU SURGIU ALGUMA DÚVIDA, POR FAVOR ENTRAR EM CONTATO 
-    # Email: williamtavaresdemoura@gmail.com
-    # Instagram: @mestre_will
+    
+    - CASO ALGO NÃO TENHA FUNCIONADO OU SURGIU ALGUMA DÚVIDA, POR FAVOR ENTRAR EM CONTATO 
+    - Email: williamtavaresdemoura@gmail.com
+    - Instagram: @mestre_will
     
