@@ -29,7 +29,8 @@ Diagrama ER BASE
  - USE O LOGIN QUE VOCÊ CRIOU NO createsuperuser para acessar o painel administrador
  - OBS: Ter o modulo virtualenv instalado na maquina, caso não tenha:
     $pip install virtualenv
-    
+
+   ```bash 
     # Clonar repositório
     $ git clone https://github.com/MestreWil/loja-online-api/
     
@@ -53,7 +54,7 @@ Diagrama ER BASE
 
     # Rodar projeto
     $ python manage.py runserver
-    
+    ```
     
     #ao entrar e der pagina not found, basta colocar /admin no endpoint para ser encaminhado para o painel administrador da API, loge com seu login e senha criados na etapa de criacao do super usuario e pronto
     
